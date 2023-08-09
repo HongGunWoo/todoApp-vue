@@ -1,6 +1,5 @@
 import axios from 'axios';
 import { defineStore } from 'pinia';
-import TodoItemModalVue from '~/routes/TodoItemModal.vue';
 
 export type Todos = Todo[]; // 할 일 목록
 export interface Todo {
